@@ -18,7 +18,7 @@ Para correr la aplicacion, estando en la carpeta donde clonaron el repositorio s
 ```
 node app <nombre-del-archivo.txt>
 ```
-De no pasar ningun argumento la aplicacion buscara leer el archivo "file.txt" por defecto, para correr los tests es necesario usar npm init para instalar jest.
+<nombre-del-archivo.txt> es el nombre de un archivo de texto incluyendo extensión que contiene datos en el formato descrito anteriormente, De no pasar ningun argumento la aplicacion buscara leer el archivo "file.txt" por defecto, para correr los tests es necesario usar npm init para instalar jest.
 
 En el repositorio de github o en los archivos clonados localmente encontraran una carpeta "helpers" con un unico archivo "helpers.js" donde se encuentra 3 funciones que son exportadas utilizando module.exports y se utilizan en app.js donde esta alojada la logica principal de la aplicacion.
 
@@ -51,7 +51,7 @@ To run the application, being in the folder where the repository was cloned, use
 ``` 
 node app <file-name.txt>
 ```
-If no argument is passed, the application will seek to read the file "file.txt" by default, to run the tests it is necessary to use npm init to install jest.
+<file-name.txt> is the name of a text file with data in the format described previously, If no argument is passed, the application will seek to read the file "file.txt" by default, to run the tests it is necessary to use npm init to install jest.
 
 In the github repository or in the locally cloned files you will find a "helpers" folder with a single "helpers.js" file in wich there are 3 functions that are exported using module.exports and are used in app.js where the main logic of the application is located.
 
