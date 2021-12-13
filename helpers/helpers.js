@@ -1,6 +1,5 @@
 // compare elements of two arrays
 const compareArrays = (arrayA, arrayB) => {
-  console.log(arrayA.filter(element => arrayB.includes(element)).length)
   return arrayA.filter(element => arrayB.includes(element)).length
 };
 
@@ -11,7 +10,6 @@ const getTimes = '(?<==).+';
 // insert data from the txt file into an array of objects
 const returnDataOnArray = (data) => {
   let dataArray = [];
-  console.log(data)
   let array = data.toString().split("\n");
 
   for (i in array) {
